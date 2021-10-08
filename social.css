@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700;800;900&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+.container{
+    height:90%;
+    width: 75%;
+    padding: 3.5em;
+    border: 0.2em none orange;
+    margin: 5% auto;
+    background-color: hsl(0, 0%, 100%);
+}
+.upperbody{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1{
+    /* border: 0.2em none red; */
+    height:40%;
+    width:16em;
+    /* margin-right: 3em; */
+}
+
+.box1 p{
+    padding-top: 0.6em;
+    Font-size: 15px;
+    color: hsl(303, 10%, 53%);
+}
+.box1 h1{
+    line-height: 0.9;
+    color:hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif
+
+}
+
+.staricon{
+    margin-right: 2em;
+}
+img{
+    max-width:100%;
+max-height:100%;
+}
+.sub1{
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: hsl(300, 24%, 96%);
+    margin: 0.6em 2.7em;
+    
+}
+.sub2{
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: hsl(300, 24%, 96%);
+    margin: 0.6em;
+    margin-left: 3.7em;
+}
+.sub3{
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: hsl(300, 24%, 96%);
+    margin: 0.6em;
+    margin-left: 4.7em;
+}
+
+
+.lowerbody{
+    /* border: 0.2em none palevioletred ; */
+    margin-top: 2.1em;
+}
+
+.card1{
+/* border: 0.2em none palegreen; */
+width: 15em;
+height: 12em;
+background-color:hsl(300, 43%, 22%);
+padding: 0.6em;
+border-radius: 5%;
+}
+
+.cardlower{
+    color:hsl(0, 0%, 100%);
+    margin-top: 0.8em;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.cardupper{
+    display: flex;
+
+}
+.cardupper img{
+    border-radius: 80%;
+}
+
+.iconheader{
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+}
+.iconheader h4{
+    color: hsl(0, 0%, 100%);
+}
+.iconheader p{
+    color: hsl(333, 80%, 67%);
+}
+
+
+.lowerbody{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.card2{
+    /* border: 0.2em none palegreen; */
+    max-width: 15em;
+    height: 12em;
+    background-color:hsl(300, 43%, 22%);
+    padding: 0.6em;
+    margin-left: 0.4em;
+    margin-top: 0.5em;
+    border-radius: 5%;
+    }
+
+    .card3{
+        /* border: 0.2em none palegreen; */
+        width: 15em;
+        height: 12em;
+        background-color:hsl(300, 43%, 22%);
+        padding: 0.6em;
+        margin-left: 0.4em;
+        margin-top: 1em;
+        border-radius: 5%;
+        }
+
+        @media only screen and (max-width: 850px) {
+            .staricon{
+                margin-right: 0.2em;
+            }   
+            .sub1{
+                display:flex;
+                flex-wrap: nowrap;
+                background-color: hsl(300, 24%, 96%);
+                /* margin: 0.6em 2.7em; */
+                margin-top: 2.5em !important;
+                margin: 1px;
+                font-size: 0.4rem;
+                float: left;
+            }
+            .sub2{
+                display:flex;
+                flex-wrap: nowrap;
+                background-color: hsl(300, 24%, 96%);
+                /* margin: 0.6em;
+                margin-left: 3.7em; */
+                margin:1px;
+                font-size: 0.4rem;
+                float: left;
+            }
+            .sub3{
+                display:flex;
+                flex-wrap: nowrap;
+                background-color: hsl(300, 24%, 96%);
+                margin: 1px;
+                font-size: 0.4rem;
+                float: left;
+                /* margin-left: 4.7em; */
+            }
+            
+        }
